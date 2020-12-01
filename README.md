@@ -15,7 +15,7 @@ import RnOrderPrinter from "rnorderprinter";
 
 // ...
 
-const result = await RnOrderPrinter.multiply(3, 7);
+const result = await RnOrderPrinter.printHtml(html);
 ```
 
 ## Contributing
