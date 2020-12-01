@@ -1,5 +1,5 @@
 #import <React/RCTBridgeModule.h>
 
-@interface Rnorderprinter : NSObject <RCTBridgeModule>
+@interface RnOrderPrinter : NSObject <RCTBridgeModule>
 
 @end

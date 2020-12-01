@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import Rnorderprinter from 'rnorderprinter';
+import RnOrderPrinter from 'rnorderprinter';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState<boolean | undefined>();
 
   React.useEffect(() => {
-    Rnorderprinter.multiply(3, 7).then(setResult);
+    const html = `<html><body><h2>Test test</h2></body></html>`
+    RnOrderPrinter.printHtml(html).then(setResult);
   }, []);
 
   return (

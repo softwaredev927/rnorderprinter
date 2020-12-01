@@ -11,11 +11,11 @@ npm install rnorderprinter
 ## Usage
 
 ```js
-import Rnorderprinter from "rnorderprinter";
+import RnOrderPrinter from "rnorderprinter";
 
 // ...
 
-const result = await Rnorderprinter.multiply(3, 7);
+const result = await RnOrderPrinter.multiply(3, 7);
 ```
 
 ## Contributing

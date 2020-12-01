@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  RnorderprinterExample
+//  RnOrderPrinterExample
 //
 
 import Foundation

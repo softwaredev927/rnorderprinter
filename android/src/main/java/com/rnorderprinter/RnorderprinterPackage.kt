@@ -9,9 +9,9 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.uimanager.ViewManager
 import com.facebook.react.bridge.JavaScriptModule
 
-class RnorderprinterPackage : ReactPackage {
+class RnOrderPrinterPackage : ReactPackage {
     override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-        return Arrays.asList<NativeModule>(RnorderprinterModule(reactContext))
+        return Arrays.asList<NativeModule>(RnOrderPrinterModule(reactContext))
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {

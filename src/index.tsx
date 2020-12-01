@@ -1,9 +1,9 @@
 import { NativeModules } from 'react-native';
 
-type RnorderprinterType = {
-  multiply(a: number, b: number): Promise<number>;
+type RnOrderPrinterType = {
+  printHtml(htmlData: string): Promise<boolean>;
 };
 
-const { Rnorderprinter } = NativeModules;
+const { RnOrderPrinter } = NativeModules;
 
-export default Rnorderprinter as RnorderprinterType;
+export default RnOrderPrinter as RnOrderPrinterType;

@@ -11,7 +11,7 @@ import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
-import com.rnorderprinter.RnorderprinterPackage;
+import com.rnorderprinter.RnOrderPrinterPackage;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -26,9 +26,9 @@ public class MainApplication extends Application implements ReactApplication {
         protected List<ReactPackage> getPackages() {
           @SuppressWarnings("UnnecessaryLocalVariable")
           List<ReactPackage> packages = new PackageList(this).getPackages();
-          // Packages that cannot be autolinked yet can be added manually here, for RnorderprinterExample:
+          // Packages that cannot be autolinked yet can be added manually here, for RnOrderPrinterExample:
           // packages.add(new MyReactNativePackage());
-          packages.add(new RnorderprinterPackage());
+          packages.add(new RnOrderPrinterPackage());
 
           return packages;
         }

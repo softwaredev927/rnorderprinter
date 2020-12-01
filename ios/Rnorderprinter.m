@@ -1,6 +1,6 @@
-#import "Rnorderprinter.h"
+#import "RnOrderPrinter.h"
 
-@implementation Rnorderprinter
+@implementation RnOrderPrinter
 
 RCT_EXPORT_MODULE()
 
